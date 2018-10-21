@@ -1,0 +1,76 @@
+.input {
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #808080;
+  padding: 5px;
+  width: 100%;
+  max-width: 100%;
+}
+.input-error {
+  border-color: #ff0000;
+}
+
+.button {
+  background-color: #fff0f5;
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.button-red {
+  background-color: #ff6347;
+  color: #fff;
+}
+
+.panel {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.panel-green {
+  border: solid 1px #a9a9a9;
+}
+.panel-green > .panel__head {
+  background-color: #008080;
+  color: #fff;
+}
+.panel-green > .panel__body {
+  background-color: #f0fff0;
+  color: #000;
+}
+.panel__head {
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.panel__head-green {
+  background-color: #008080;
+  color: #fff;
+}
+.panel__head-center {
+  text-align: center;
+}
+.panel__body {
+  background-color: lightblue;
+}
+.panel__columns {
+  display: flex;
+}
+.panel__columns-2 > * {
+  width: 50%;
+}
+.panel__columns-1 > * {
+  width: 100%;
+}
+.panel__column {
+  padding: 10px;
+}
+.panel__column > * {
+  max-width: 100%;
+}
+.panel__column-center {
+  text-align: center;
+}
+
+.error_message {
+  color: #ff0000;
+}
